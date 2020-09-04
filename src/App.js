@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -7,7 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Mon compte mobilité</h1>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
+          className="App-logo"
+          alt="logo"
+        />
         <p>
           Mon Compte Mobilité est une expérimentation d’intérêt général pour
           l’optimisation des mobilités et des services de déplacements
@@ -21,7 +24,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Je suis intéressé
         </a>
       </header>
     </div>
