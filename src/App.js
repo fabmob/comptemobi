@@ -11,11 +11,13 @@ function App() {
       </header>
       <main>
         <p>
-          Mon Compte Mobilité est une expérimentation d’intérêt général pour
-          l’optimisation des mobilités et des services de déplacements
-          subventionnés sur des territoires, afin de les rendre plus durables.
-          Elle s’adresse aux citoyen.ne.s, aux entreprises, aux collectivités et
-          aux opérateurs de mobilités.
+          Mon Compte Mobilité permet aux territoires et aux entreprises de
+          concevoir leur politique de subvention des mobilités pour de les
+          rendres plus efficaces et durables.{" "}
+        </p>
+        <p>
+          Il permet aux citoyens de faire une demande en trois clics pour
+          redécouvrir les transports de sa ville.
         </p>
         <img
           alt="Rennes"
