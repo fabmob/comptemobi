@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src={logo} id="logo" />
+        <img alt="logo" src={logo} id="logo" />
         <h1>compte.mobi</h1>
       </header>
       <main>
@@ -18,6 +18,7 @@ function App() {
           aux opérateurs de mobilités.
         </p>
         <img
+          alt="Rennes"
           id="illustration"
           src="https://images.unsplash.com/photo-1443684015721-b4dde0c25c72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80"
         />
@@ -26,8 +27,14 @@ function App() {
         </a>
       </main>
       <footer>
-        <img src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg" />
-        <img src="https://www.capgemini.com/fr-fr/wp-content/themes/capgemini-komposite/assets/images/capgemini-invent.svg" />
+        <img
+          alt="logo fabmob"
+          src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
+        />
+        <img
+          alt="logo capgemini"
+          src="https://www.capgemini.com/fr-fr/wp-content/themes/capgemini-komposite/assets/images/capgemini-invent.svg"
+        />
       </footer>
     </div>
   );
