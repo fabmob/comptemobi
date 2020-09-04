@@ -8,7 +8,13 @@ function App() {
       <header className="App-header">
         <h1>Mon compte mobilité</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Mon compte mobilité</p>
+        <p>
+          Mon Compte Mobilité est une expérimentation d’intérêt général pour
+          l’optimisation des mobilités et des services de déplacements
+          subventionnés sur des territoires, afin de les rendre plus durables.
+          Elle s’adresse aux citoyen.ne.s, aux entreprises, aux collectivités et
+          aux opérateurs de mobilités.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
