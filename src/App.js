@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Mon compte mobilité</h1>
-        <img
-          src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg"
-          className="App-logo"
-          alt="logo"
-        />
+      <header>
+        <img src={logo} id="logo" />
+        <h1>compte.mobi</h1>
+      </header>
+      <main>
         <p>
           Mon Compte Mobilité est une expérimentation d’intérêt général pour
           l’optimisation des mobilités et des services de déplacements
@@ -18,15 +17,18 @@ function App() {
           Elle s’adresse aux citoyen.ne.s, aux entreprises, aux collectivités et
           aux opérateurs de mobilités.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <img
+          id="illustration"
+          src="https://images.unsplash.com/photo-1443684015721-b4dde0c25c72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80"
+        />
+        <a className="button" href="mailto:contact@lafabriquedesmobilites.fr">
           Je suis intéressé
         </a>
-      </header>
+      </main>
+      <footer>
+        <img src="http://lafabriquedesmobilites.fr/wp-content/themes/fabmob/images/fabmob-logo.svg" />
+        <img src="https://www.capgemini.com/fr-fr/wp-content/themes/capgemini-komposite/assets/images/capgemini-invent.svg" />
+      </footer>
     </div>
   );
 }
