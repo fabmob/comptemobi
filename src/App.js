@@ -17,15 +17,27 @@ function App() {
         </p>
         <p>
           Il permet aux citoyens de faire une demande en trois clics pour
-          redécouvrir les transports de sa ville.
+          redécouvrir les transports de sa ville.{" "}
+          <a href="https://cloud.fabmob.io/s/FqWd2SaXKEjSTRg#pdfviewer">
+            {" "}
+            En savoir plus (PDF)
+          </a>
+          .
         </p>
+
         <img
           alt="Rennes"
           id="illustration"
           src="https://images.unsplash.com/photo-1443684015721-b4dde0c25c72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80"
         />
+        <a
+          className="button"
+          href="https://forum.fabmob.io/c/mon-compte-mobilite"
+        >
+          Poser des questions sur notre forum
+        </a>
         <a className="button" href="mailto:contact@lafabriquedesmobilites.fr">
-          Je suis intéressé
+          Nous contacter directement
         </a>
       </main>
       <footer>
