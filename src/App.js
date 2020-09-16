@@ -12,8 +12,8 @@ function App() {
       <main>
         <p>
           Mon Compte Mobilité permet aux territoires et aux entreprises de
-          concevoir leur politique de subvention des mobilités pour de les
-          rendres plus efficaces et durables.{" "}
+          concevoir leur politique de subvention des mobilités plus efficaces et
+          durables.{" "}
         </p>
         <p>
           Il permet aux citoyens de faire une demande en trois clics pour
