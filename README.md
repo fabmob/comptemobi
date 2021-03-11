@@ -1,3 +1,5 @@
+> Mise à jour : ce site n'a pas été retenu par CapGemini qui a décidé de partir sur son propre déploiement d'un site vitrine en Wordpress
+
 ## Quoi ? 
 
 Mon Compte Mobilité me permet de découvrir les incitations de ma collectivité 
