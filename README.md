@@ -1,4 +1,4 @@
-> Mise à jour : ce site n'a pas été retenu par CapGemini qui a décidé de partir sur son propre déploiement d'un site vitrine en Wordpress
+> Mise à jour : ce site n'a pas été retenu, voir https://moncomptemobilite.fr/ pour plus d'information sur ce projet
 
 ## Quoi ? 
 
